@@ -1,0 +1,10 @@
+@import "./global.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Dirtyline36Daysoftype2022";
+  src: url("./assets/Dirtyline 36daysoftype 2022.woff");
+}

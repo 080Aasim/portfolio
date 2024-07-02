@@ -1,0 +1,19 @@
+.color {
+  color: #d2691e;
+}
+
+body {
+  background-color: black;
+}
+
+.cursor {
+  background-color: #9e9e9e;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
