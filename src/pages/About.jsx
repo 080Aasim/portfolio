@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Transition from "./Transition";
-import { InstagramLogo, LinkedinLogo, GithubLogo } from "phosphor-react";
 import { SocialIcon } from "react-custom-social-icons";
 
 import { Link } from "react-router-dom";
@@ -31,12 +30,14 @@ function About() {
             </Link>
           </div>
           <div className="mt-2 mb-[-15px]">
-            <h2 className=" text-gray-500 font-dirty text-[36px]">EMAIL : aasim9155@gmail.com</h2>
+            <h2 className=" text-gray-500 font-dirty text-[36px]">
+              EMAIL : aasim9155@gmail.com
+            </h2>
           </div>
         </div>
-        <div className=" flex  justify-center  flex-col items-center">
+        <div className=" flex  justify-center  flex-col h-[350px] items-center">
           <h2 className=" font-dirty text-orange-500 text-[40px]">SkIllS</h2>
-          <p className=" text-gray-500 font-dirty text-[32px] flex items-center justify-center flex-col">
+          <p className=" text-gray-500 font-dirty text-[32px] flex items-center justify-center gap-4">
             <h3 className=" text-orange-600">Html</h3>
             <h3 className=" text-blue-400">Css</h3>
             <h3 className=" text-yellow-500">JavaScript</h3>
